@@ -1,0 +1,294 @@
+--------------------------------- line1.1 ------------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.6" />
+	<param name="k2" value="0.6" />
+	<param name="k3" value="0.0" />
+</node>
+</launch>
+
+--------------------------------- line1.2 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.3" />
+	<param name="k2" value="0.7" />
+	<param name="k3" value="0.0" />
+</node>
+</launch>
+
+--------------------------------- line1.3 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.3" />
+	<param name="k2" value="0.8" />
+	<param name="k3" value="0.0" />
+</node>
+</launch>
+
+--------------------------------- line1.3 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.3" />
+	<param name="k2" value="1" />
+	<param name="k3" value="0.0" />
+</node>
+</launch>
+
+--------------------------------- line1.4 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output="screen">
+        <param name="k1" value="0.3" />
+        <param name="k2" value="0.8" />
+        <param name="k3" value="0.03" />
+</node>
+</launch>
+
+--------------------------------- line1.5 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.6" />
+	<param name="k2" value="0.6" />
+	<param name="k3" value="0.1" />
+</node>
+</launch>
+
+--------------------------------- line1.6 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.6" />
+	<param name="k2" value="0.5" />
+	<param name="k3" value="0.1" />
+</node>
+</launch>
+
+--------------------------------- line1.7 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.2" />
+	<param name="k2" value="0.2" />
+	<param name="k3" value="0.05" />
+	<param name="vr" value="0.3" />
+
+</node>
+</launch>
+
+--------------------------------- line1.8 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.2" />
+	<param name="k2" value="0.16" />
+	<param name="k3" value="0.0" />
+	<param name="vr" value="0.3" />
+
+</node>
+</launch>
+
+--------------------------------- line1.9 ----------------------------------------- GOEIE!
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.2" />
+	<param name="k2" value="0.12" />
+	<param name="k3" value="0.0" />
+	<param name="vr" value="0.3" />
+
+</node>
+</launch>
+
+--------------------------------- slinger7.1 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.6" />
+	<param name="k2" value="0.6" />
+	<param name="k3" value="0.2" />
+	<param name="vr" value="0.3" />
+
+</node>
+</launch>
+
+--------------------------------- slinger8.1 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.6" />
+	<param name="k2" value="0.6" />
+	<param name="k3" value="0.15" />
+	<param name="vr" value="0.3" />
+</node>
+</launch>
+
+--------------------------------- slinger8.2 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.2" />
+	<param name="k2" value="0.11" />
+	<param name="k3" value="0.0" />
+	<param name="vr" value="0.3" />
+</node>
+</launch>
+
+--------------------------------- slinger8.3 -----------------------------------------
+
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="scre
+en">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>
+
+<launch>
+<node pkg="odometry_source" type="odometry_source" name="odometry_source" output
+="screen">
+	<param name="k1" value="0.2" />
+	<param name="k2" value="0.11" />
+	<param name="k3" value="0.05" />
+	<param name="vr" value="0.3" />
+</node>
+</launch>
+
