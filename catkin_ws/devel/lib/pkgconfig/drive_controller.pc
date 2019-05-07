@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: drive_controller
+Description: Description of drive_controller
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/devel/include
+Libs: -L/home/ubuntu/catkin_ws/devel/lib 
+Requires: message_runtime geometry_msgs rospy std_msgs

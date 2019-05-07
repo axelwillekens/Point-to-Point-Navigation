@@ -1,0 +1,26 @@
+Om het programma te starten launch robotTools/bash_scripts/robotTool.sh
+Of maak een snelkoppeling naar dit uitvoerbaar bestand.
+Na het launchen van de robotTool opent het programma in je browser.
+--------------------------------------------------------------------------------
+*Tegel "Home" -- nog niet geimplementeerd
+*Tegel "Navigate your robot" -- nog niet geimplementeerd
+*Tegel "Track your robot": Een robottraject kan worden ingeladen
+voorbeelden van tracks zijn terug te vinden onder robotTools/robotTracker/tracks
+Onder "Change trajectory tracker" kan het traject van de robot live gevolgd worden.
+Mogelijkheden waarom het niet werkt:
+	- Het poornummer in robotTools/robotTracker/mapper.js en het poortnummer 
+	  van het script van de measure_gps_cos ROS node moeten overeen komen.
+	- De Raspberry Pi en het toestel waarop de robotTool draait moeten met 
+	  hetzelfde netwerk verbonden zijn.
+	- ROS node measure_gps_cos moet draaiien en de GPS module moet werken.
+*Tegel "Create a new robot track": Een nieuwe robot track kan worden aangemaakt.
+Met de polynoom knop op de Arcgis map kan een polynoom worden getekend, vier 
+hoekpunten zijn hiervoor vereist. Merk op dat d_traject hier minimaal 15 cm is.
+Met de knop "Create CSV file" kan een file
+worden gecreeerd om in te laden in de robotTracker. Deze file wordt opgeslagen
+onder robotTools/robotTracker/tracks
+Met de knop "Create Waypoint file" kan een file worden gecreeerd met hetzelfde
+formaat als de current.waypoint file in de point_creator node. Dit bestand kan
+vervolgens dienen als track voor de robot.
+
+

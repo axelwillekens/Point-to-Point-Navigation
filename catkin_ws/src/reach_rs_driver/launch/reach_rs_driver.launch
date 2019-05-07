@@ -1,0 +1,6 @@
+<launch>
+<node pkg="reach_rs_driver" type="reach_rs_driver_node" name="reach_rs_driver" output="screen">
+	<param name="~reach_rs_host_or_ip" value="reach.local" />
+	<param name="~reach_rs_port" value="9001" />
+</node>
+</launch>

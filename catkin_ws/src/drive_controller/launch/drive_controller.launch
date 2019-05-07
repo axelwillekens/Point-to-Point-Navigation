@@ -1,0 +1,5 @@
+<launch>
+<node pkg="drive_controller" type="drive_controller_script.py" name="drive_controller" output="screen">
+	<param name="~wielbasis" value="0.46" />
+</node>
+</launch>

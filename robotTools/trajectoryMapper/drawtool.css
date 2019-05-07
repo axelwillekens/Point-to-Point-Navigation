@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#viewDiv {
+    padding: 0;
+    margin:  25px 3% 75px;
+    height: 80%;
+    width: 94%;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.linehor {
+    display: inline;
+    margin: 10px;
+}
+
+.linevert {
+    display: block;
+    margin: 3px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 20%;
+}
+
+.column.middle {
+    width: 78%;
+}
+
+.column.small {
+    width: 50%
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-group{margin-bottom:15px}
+
+/******************************For the menubar the left column***********************************/
+li a {
+    display: block;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+    cursor:pointer;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*************************For the buttons*********************************************/
+.csvbutton {
+    width: 220px;
+    display: block;
+    margin: 3px;
+    disabled: true;
+}
+.waypointbutton {
+    width: 220px;
+    display: block;
+    margin: 3px;
+    disabled: true;
+}
+.trackbutton {
+    width: 220px;
+    display: block;
+    margin: 3px;
+    disabled: true;
+}

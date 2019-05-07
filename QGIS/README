@@ -1,0 +1,7 @@
+pointtools.py is geschreven in PyQGIS (QGIS Desktop 3.4.5)
+Het script is in staat om op getekende polynomen een traject
+(punten) uit te zetten. Waarbij de afstand tussen de punten
+(d_traject) veel minder dan 15 cm kan bedragen.
+
+Om een bestand te bekomen met longitude - latitude coordinaten
+gaat men te werk zoals in bijgevoegde pdf.

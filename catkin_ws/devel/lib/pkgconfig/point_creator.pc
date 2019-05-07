@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: point_creator
+Description: Description of point_creator
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/devel/include -I/home/ubuntu/catkin_ws/src/point_creator/include
+Libs: -L/home/ubuntu/catkin_ws/devel/lib 
+Requires: 

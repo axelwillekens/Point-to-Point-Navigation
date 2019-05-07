@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: odometry_source
+Description: Description of odometry_source
+Version: 0.0.0
+Cflags: -I/home/ubuntu/catkin_ws/src/odometry_source/include
+Libs: -L/home/ubuntu/catkin_ws/devel/lib 
+Requires: 

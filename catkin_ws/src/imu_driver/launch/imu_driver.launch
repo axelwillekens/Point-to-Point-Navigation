@@ -1,0 +1,4 @@
+<launch>
+<node pkg="imu_driver" type="imu_driver" name="imu_driver" output="screen">
+</node>
+</launch>

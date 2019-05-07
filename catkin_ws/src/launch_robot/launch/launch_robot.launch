@@ -1,0 +1,12 @@
+<launch>
+  <group>
+    <include file="$(find reach_rs_driver)/launch/reach_rs_driver.launch" />
+    <include file="$(find razor_imu_9dof)/launch/razor-pub.launch" />
+    <include file="$(find imu_driver)/launch/imu_driver.launch" />
+    <include file="$(find drive_controller)/launch/drive_controller.launch" />
+    <include file="$(find motor_driver)/launch/motor_driver.launch" />
+    <include file="$(find point_creator)/launch/point_creator.launch" />
+    <include file="$(find odometry_source)/launch/odometry_source.launch" />
+    <include file="$(find measure_gps_cos)/launch/measure_gps_cos.launch" />
+  </group>
+</launch>

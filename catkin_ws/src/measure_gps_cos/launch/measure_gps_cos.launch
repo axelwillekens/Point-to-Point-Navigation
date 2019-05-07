@@ -1,0 +1,4 @@
+<launch>
+<node pkg="measure_gps_cos" type="robot_tracker.py" name="measure_gps_cos" output="screen">
+</node>
+</launch>

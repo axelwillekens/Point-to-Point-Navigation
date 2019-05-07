@@ -1,0 +1,7 @@
+<launch>
+<node pkg="point_creator" type="point_creator" name="point_creator" output="screen">
+     <param name="d_switch" value="0.5" />
+     <param name="d_e_switch" value="100" />
+     <param name="arrlength" value="30" />
+</node>
+</launch>

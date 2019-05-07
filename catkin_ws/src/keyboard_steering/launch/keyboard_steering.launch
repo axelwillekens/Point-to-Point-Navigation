@@ -1,0 +1,4 @@
+<launch>
+<node pkg="keyboard_steering" type="keyboard_steering.py" name="keyboard_steering" output="screen">
+</node>
+</launch>
