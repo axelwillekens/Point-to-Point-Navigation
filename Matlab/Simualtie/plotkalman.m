@@ -15,12 +15,12 @@ figure
 subplot(211), plot(t,res.data(1:1001,2),'--',t,rese.data(1:1001,2),'-'), 
 xlabel('# samples'), ylabel('v_x')
 %axis([0 1000 -1 -0.15]);
-legend({'Exact','Estimation'})
+legend({'Exact','Geschat'})
 
 subplot(212), plot(t,res.data(1:1001,2)-resv.data(1:1001,2),'-.',t,res.data(1:1001,2)-rese.data(1:1001,2),'-'),
-xlabel('# samples'), ylabel('Error v_x')
+xlabel('# samples'), ylabel('Fout v_x')
 axis([0 1000 -0.4 0.4]);
-legend({'Noise','Estimation error'})
+legend({'Ruis','Geschatte fout'})
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Figure 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 figure
 subplot(211), plot(t,res.data(1:1001,3),'--',t,rese.data(1:1001,3),'-'), 
