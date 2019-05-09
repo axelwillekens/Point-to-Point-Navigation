@@ -9,6 +9,6 @@ for i = 1:size(d)
 end
 plot(d)
 xlabel('# samples');
-ylabel('fout [m]');
-axis([0 3000 -1 0.2]);
+ylabel('error [m]');
+axis([0 3000 -0.9 0.2]);
 grid on
