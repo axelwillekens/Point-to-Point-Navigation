@@ -1,9 +1,0 @@
-contains the imagefile of the SSD card used on the Raspberry Pi.
-
-Install this imagefile on a SSD card of 16 Gbyte. You can use the link below:
-https://learn.sparkfun.com/tutorials/sd-cards-and-writing-images/all
-
-You can ssh on it:
-ssh ubuntu@ubiquityrobot.local
-pwd: ubuntu 
-
